@@ -1,0 +1,43 @@
+{
+	"name": "pipeline1",
+	"properties": {
+		"activities": [
+			{
+				"name": "practoce",
+				"type": "SetVariable",
+				"dependsOn": [],
+				"userProperties": [],
+				"typeProperties": {
+					"variableName": "limitcheck",
+					"value": {
+						"value": "@if(equals(\nstring(pipeline().globalParameters.checkVariable.env),'prod'),variables('number'),variables('limit'))",
+						"type": "Expression"
+					}
+				}
+			}
+		],
+		"parameters": {
+			"pop": {
+				"type": "string",
+				"defaultValue": "wlejwe"
+			}
+		},
+		"variables": {
+			"number": {
+				"type": "String",
+				"defaultValue": "25000"
+			},
+			"limit": {
+				"type": "String",
+				"defaultValue": "100"
+			},
+			"limitcheck": {
+				"type": "String",
+				"defaultValue": "20"
+			}
+		},
+		"annotations": [
+			"hjj\\"
+		]
+	}
+}
