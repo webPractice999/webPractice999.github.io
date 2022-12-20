@@ -25,7 +25,7 @@
 		"variables": {
 			"number": {
 				"type": "String",
-				"defaultValue": "25000"
+				"defaultValue": "10000"
 			},
 			"limit": {
 				"type": "String",
