@@ -29,7 +29,7 @@
 			},
 			"limit": {
 				"type": "String",
-				"defaultValue": "10000"
+				"defaultValue": "25000"
 			},
 			"limitcheck": {
 				"type": "String",
