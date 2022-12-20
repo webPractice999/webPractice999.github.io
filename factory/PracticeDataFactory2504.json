@@ -1,5 +1,15 @@
 {
 	"name": "PracticeDataFactory2504",
+	"properties": {
+		"globalParameters": {
+			"checkVariable": {
+				"type": "object",
+				"value": {
+					"env": "prod"
+				}
+			}
+		}
+	},
 	"location": "eastus",
 	"identity": {
 		"type": "SystemAssigned",
